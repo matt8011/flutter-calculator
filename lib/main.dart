@@ -104,7 +104,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
                 children: ['0', '.', '=', '+'].map(_buildButton).toList(),
               ),
               Row(
-                children: ['C'].map(_buildButton).toList(),
+                children: ['%', 'C'].map(_buildButton).toList(),
               ),
             ],
           ),
